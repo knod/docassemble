@@ -2180,7 +2180,7 @@ they are up to you to choose.
 
 ## <a name="Person"></a>Person
 
-The `Person` class encompasses [`Individual`]s as well as legal persons,
+The `Person` class encompasses [`Individual`]s as well as [`Organization`]s like legal persons,
 like companies, government agencies, etc.  If you create an object of
 type `Person` by doing:
 
