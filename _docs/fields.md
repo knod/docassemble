@@ -855,8 +855,9 @@ For a full explanation of how this is used, see [above](#input types).
 a field is required, it will be marked with a red asterisk, and input
 validation will be enforced to make sure the user provides a value.
 
-If the user skips a non-required field, the variable will be blank for
-text-based fields and `None` for multiple-choice and yes/no fields.
+If the user skips a non-required field, the variable will be an empty
+string ("") for text-based fields and `None` for multiple-choice and
+yes/no fields.
 
 Some `datatype`s are never marked with a red asterisk.  For example,
 [`range`](#range) and [`yesno`](#fields yesno) fields are set to real
